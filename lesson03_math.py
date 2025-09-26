@@ -48,3 +48,38 @@ print("Result4: ", result4)
 
 result5 = 5 + 2 ** 3 * (4 - 1)
 print("Result5: ", result5)
+
+# CHALLENGES
+
+rectanglearea = 8 * 5
+print("Rectangle Area: ", rectanglearea)
+
+circlearea = 3.14 * 7 ** 2
+print("Circle Area: ", circlearea)
+
+total = 12.99 * 3 + 3.50 * 4
+print("Total: ", total)
+
+integer1 = 67
+answer = integer1 % 2
+
+if (answer == 0):
+    print("Even")
+else:
+    print("Odd")
+
+#________________________
+
+    integer2 = 68
+answer = integer2 % 2
+
+if (answer == 0):
+    print("Even")
+else:
+    print("Odd")
+
+
+
+
+
+
