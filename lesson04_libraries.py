@@ -39,5 +39,5 @@ result = math.pi * radius2
 print("Area: ", result)
 
 #challenge 2
-print("Dice: ", random.randint(1, 6))
- 
+die_roll = random.randint(1, 6)
+print(die_roll)
