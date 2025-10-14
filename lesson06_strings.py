@@ -32,6 +32,41 @@ print(length_of_word)
 random_phrase = "sPOngEbOb"
 print("Uppercase: ", random_phrase.upper())
 print("Lowercase: ", random_phrase.lower())
-print("Lowercase: ", random_phrase.capitalize()) #makes first letter capital and every other lowercase
+print("Capitalized first letter: ", random_phrase.capitalize()) #makes first letter capital and every other lowercase
+print("Title format: ", random_phrase.title())
 
+print()
 
+#Find and replace text
+sentence = "I'm Arsen"
+new_sentence = sentence.replace("I'm", "You're")
+print(sentence)
+print(new_sentence)
+
+print("\n --- formatted Strings ---")
+name1 = "Arsen"
+age1 = 15
+city1 = "New York"
+
+print(f"Hello, my name is {name1}. I am {age1} years old and I live in {city1}")
+
+# f-strings can do math and function calls inside {}
+print(f"Next year I'll be {age1 + 1}. My name is uppercase is {name1.upper()}.")
+
+print("\n Challanges")
+
+#Challange 1
+favorite_qoute = input("Enter your favorite qoute: ")
+
+print(f"Your qoute is {len(favorite_qoute)} characters long")
+
+#Challange 2
+fname = input("Whats your first name?")
+lname = input("Whats your last name?")
+print(f"formated name: {lname}, {fname}")
+
+#Challange 3
+rword = input("Enter any word you want \n")
+print("Uppercase: ", rword.upper())
+print("Lowercase: ", rword.lower())
+print("Backwards: ", rword[::-1])
