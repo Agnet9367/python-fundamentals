@@ -109,6 +109,34 @@ if day is not "Monday":
 
 
 
+#Challange 1
+inp = int(input("Type any number you want: "))
+if inp % 2 == 0:
+    print(f"{inp} is even")
+else:
+    print(f"{inp} is odd")
+
+#Challange 2
+apassword = 1234
+password = int(input("Type the password here: "))
+if password == apassword:
+    print("Access granted")
+else:
+    print("Access denied")
+
+#Challange 3
+numbgrade = int(input("Enter your grade: "))
+if numbgrade > 100:print("Error")
+elif numbgrade >= 90:print("You earned an A")
+elif numbgrade >= 80:print("You earned an B")
+elif numbgrade >= 70:print("You earned an C")
+elif numbgrade >= 60:print("You earned an D")
+else: print("You earned an F")
+
+
+    
+
+
 
 
 
