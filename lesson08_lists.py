@@ -77,4 +77,18 @@ print(matrix[0][2])
 #Challange 1
 list2 = [1, 2, 3, 4, 5, 6]
 ulist = int(input("Enter a new integer: "))
+newlist = [1, 2, ulist, 4, 5, 6]
+print(newlist)
+
+#Challange 2 
+shopping = []
+shopping.append("potato")
+shopping.append("tomato")
+shopping.append("salad")
+shopping.insert(2, "spices")
+shopping.remove("potato")
+print(shopping)
+
+
+
 
