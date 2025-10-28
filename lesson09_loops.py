@@ -1,4 +1,6 @@
 import time
+import random
+import math
 #Loops in python
 # Loops repeat a block of code until they hit a limit or condition.
 # They exist to save us from typing the same line 500 times.
@@ -48,16 +50,33 @@ import time
 # while user_input != "exit":
 #     user_input = input("Type 'exit' to escape: ")
 
-count = 60
-increment = 1
+# count = 60
+# increment = 1
 
-while count > 0:
-    if count < 0:
-        break
-    count -= increment
-    increment += 1
+# while count > 0:
+#     if count < 0:
+#         break
+#     count -= increment
+#     increment += 1
 
-    print(count)
+#     print(count)
+
+#Challange 1
+list_fruits = ["banana", "apple", "blueberry", "mango", "orange", "blackberry", "dragonfruit", "durian", "pineapple", "jackfruit"]
+user_input = int(input("How many fruits do you want (1-10) "))
+if user_input <= 10:
+    for i in range(user_input):
+        print("You picked: ",random.choice(list_fruits));time.sleep(0.5)
+else: 
+    print("An error occured try again later")
+
+
+
+
+
+
+
+
 
 
 
