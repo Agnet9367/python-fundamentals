@@ -1,12 +1,13 @@
 #Challange 1
 #   procedure add(num1, num2)
-#   display(num1 + num2)
+#       display(num1 + num2)
 #   procedure subtract(num1, num2)
-#   display(num1 - num2)
+#       display(num1 - num2)
 #   procedure divide(num1, num2)
-#   display(num1 / num2)
+#       display(num1 / num2)
 #   procedure multiply(num1, num2)
-#   display(num1 * num2)
+#       display(num1 * num2)
+
 def add(num1, num2):
     print(num1 + num2)
 add(1, 2)
@@ -25,21 +26,30 @@ multiply(2, 5)
 
 #Challange 2
 #   procedure average(num1, num2, num3)
-#   return(num1 + num2 + num3)/3
+#       return(num1 + num2 + num3)/3
+
 def average(num1, num2, num3):
     return(num1 + num2 + num3)/3
 print(average(5,10,0))
 
 #Challange 3
+#   procedure is_even(num1)
+#       num1 <-- num1 % 2
+#       if num1 = 1
+#           return("Odd")
+#       else
+#       return("Even")
+
 def is_even(num1):
     num1 = num1 % 2
     if num1 == 1:
         return("Odd")
     else:
         return("Even")
-print(is_even(7))
+print(is_even(8))
 
 #Challange 4
+
 def analyze_word(string):
     VowelCount = 0
     ConsonantCount = 0
